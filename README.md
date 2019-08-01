@@ -120,4 +120,4 @@ Successful User Activated Soft Forks require a strong consensus from the economy
 
 ---
 
-*Contribute to this document here [github.com/OPUASF/UASF](https://github.com/OPUASF/UASF)*
+*Contribute to this document here [github.com/nvk/UASF](https://github.com/nvk/UASF)*
