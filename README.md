@@ -1,6 +1,15 @@
 
 ![](img/uasf-header.png)
 
+![](img/DGIluTMVYAAOh-L.jpg)
+
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+
 # BIP148 & UASF FAQ
 
 ### What is a UASF?
@@ -23,12 +32,62 @@ MASF stands for Miner Activated Soft Fork. It’s a mechanism by which miners tr
 BIP148 is a UASF that is designed to cause the existing SegWit MASF deployment to cause activation in all existing SegWit capable node software (which currently is 80% of the network nodes).
 How does BIP148 Work?
 From August 1st, 2017, miners are required to signal readiness for SegWit by creating blocks with the version bit 1. This will cause all SegWit ready nodes, which make up over 80% of the network, to activate and begin enforcement.
-Link for reference: [luke.dashjr.org/programs/bitcoin/files/charts/software.html](http://luke.dashjr.org/programs/bitcoin/files/charts/software.html). Miners must also check blocks prior to their own and ensure that they also signal for SegWit, and only build on those blocks.
+Link for reference: [luke.dashjr.org/programs/bitcoin/files/charts/segwit.html](http://luke.dashjr.org/programs/bitcoin/files/charts/segwit.html). Miners must also check blocks prior to their own and ensure that they also signal for SegWit, and only build on those blocks.
 
 
-![](img/bitcoin-nodes.png)
+![](img/bitcoin-nodes-segwit.png)
 
+### What are companies saying about BIP148?
 
+Company|Category|Support Type|ANN.|
+ :--- | :--- | :--- | :---:
+ [Abra](https://www.goabra.com) |  Worldwide payments | Support | [proof](https://twitter.com/billbarhydt/status/851855874855391232)
+ [Altana](https://play.google.com/store/apps/details?id=it.inbitcoin.altana) | Wallet | Support | [proof](https://twitter.com/inbitcoin/status/869489501059649536)
+ [Azteco](https://azte.co/) | Consumer Bitcoin | Support | [proof](https://twitter.com/Azteco_/status/881834834561306625)
+ [Bitcoin Embassy](https://bitcoinembassy.ca/) | Education | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
+ [Bitcoin India](https://pool.bitcoin-india.org/) | Miner |Support | [proof](https://blockchain.info/tx/fae1c99536a93abd8e2ad84bd9563e3170343f21a0177c0232171756ed285edc)
+ [BitCoinReminder](https://bitcoinreminder.com/)  | Tool | Support | [proof](https://www.reddit.com/r/Bitcoin/comments/642n66/bitcoinremindercom_supports_bip148_and_a_fix/)
+ [Bitfury](http://bitfury.com/) | Miner | Support | [proof](https://news.bitcoin.com/bitfury-mines-block-signaling-uasf-segwit/)
+ [BitKong](https://bitkong.com/) | Casino | Support | [proof](https://bitkong.com/segwit.txt)
+ [Bitonic (BL3P)](https://bitonic.nl/) | Exchange | Support | [proof](https://bitonic.nl/en/news/138/our-position-on-scaling-proposals)
+ [BitPay](https://bitpay.com) | Payment processor | No support | [proof](https://twitter.com/spair/status/852160130296762369)
+ [Bitrated](https://twitter.com/bitrated/status/852414265134907392) | Identity & consumer protection | Support | [proof](https://twitter.com/bitrated/status/852414265134907392)
+ [Bitrefill](https://www.bitrefill.com) |Exchange| Support | [proof](https://twitter.com/bitrefill/status/851818821946048512)
+ [Bittylicious](https://bittylicious.com/) | Exchange |Support | [proof](https://twitter.com/Bittylicious_/status/852211177530810369)
+ [Bitvest](https://bitvest.io/) | Gambling |Support | [proof](https://bitvest.io/segwit)
+ [Blockchain Academy](https://block.academy/) | Education |Support | [proof](https://block.academy/consulting)
+ [Blockonomics](https://www.blockonomics.co) |Explorer| Support|  [proof](https://twitter.com/blockonomics_co/status/851770427529670658)
+ [Bustabit](https://www.bustabit.com/) | Casino|Interest|[proof](https://www.reddit.com/r/Bitcoin/comments/63otrp/gregory_maxwell_major_asic_manufacturer_is/dfw02tg/)
+ [Bylls](https://bylls.com/) | Service | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
+ [Ciphrex](https://ciphrex.com) | Wallet/Development Stack | Support | [proof](https://medium.com/@elombrozo/why-i-support-bip148-4b4c0a9feb4d)
+ [CoinGate](https://coingate.com) | Payment Processor | Support | [proof](https://blog.coingate.com/2017/04/coingate-supports-segwit-and-uasf/)
+ [Coinkite](http://coinkite.com) | Hardware/Software | Support| [proof](https://twitter.com/coinkite/status/851822761794260992)
+ [Coinomi](https://coinomi.com/) | Multi-currency Wallet | Support| [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
+ [Darknet Heroes League](https://www.deepdotweb.com/marketplace-directory/listing/darknet-heroes-league/) | Dark Net Marketplace | Support | [proof](https://www.reddit.com/r/Bitcoin/comments/6cna2s/notice_the_debate_is_now_only_about_the_way_of/dhwez9b/)
+ [Échange de Montréal](https://www.echangedemontreal.com/) | Exchange | Support| [proof](https://twitter.com/echangedemtl/status/875781093261271040)
+ [Electrum](https://electrum.org/) | Wallet | Support | [proof](https://twitter.com/electrumwallet/status/868845430947401729)
+ [Freedom Node](https://freedomnode.com/) | Education | Support| [proof](https://freedomnode.com/bitcoin-core-support.txt)
+ [HolyTransaction](https://holytransaction.com/) | Wallet/Crypto-to-Crypto Exchange | Support | [proof](https://twitter.com/holytransaction/status/888414265715163136)
+ [inbitcoin](https://inbitcoin.it/) | Payment Processor | Ready | [proof](https://twitter.com/inbitcoin/status/869518776735289345)
+ [JoinMarket](https://github.com/JoinMarket-Org/joinmarket) | Mixer | Support| [proof](https://twitter.com/joinmarket/status/851177740900368385)
+ [LightningASIC](http://lightningasic.com/)| Miner |Support|[proof](https://twitter.com/lightningasic/status/865676297141313536)
+ [MegaDice](https://www.megadice.com)| Gambling |Support|[proof](https://bitcointalk.org/index.php?topic=1828431.msg19541810#msg19541810)
+ [Microsoft](http://microsoft.com)| Decentralized Identity dpt. |Support|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
+ [MojBitcoin](http://mojbitcoin.sk/)| ATM Operator | Support| [proof](https://twitter.com/MojBitcoin/status/866308792568479745)
+ [Mycelium](http://mycelium.com)| Wallet | Ready| [proof](https://twitter.com/MyceliumCom/status/866295946698772480)
+ [Prasos](https://prasos.fi) | Bitcoin broker | Support | [proof](https://twitter.com/prasosltd/status/852104011767566336)
+ [Samourai Wallet](https://samouraiwallet.com/) | Wallet| Support| [proof](https://twitter.com/SamouraiWallet/status/851005717070917633)
+ [Satoshi Counter](https://satoshicounter.com/) | Broker | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
+ [Satoshi Portal](http://satoshiportal.com) | Financial services | Support|[proof](https://twitter.com/francispouliot_/status/850474196635439105)
+ [Stampery Inc.](https://stampery.com) | Timestamping| Support |[proof](https://twitter.com/StamperyCo/status/852097157951873025)
+ [Simple Bitcoin Wallet](https://btcontract.com/) | Wallet| Support |[proof](https://btcontract.com/#trusted-node)
+ [Trezor](https://trezor.io/) | Hardware Wallet | Ready | [proof](https://twitter.com/slushcz/status/851502735736418304)
+ [Trezor Web Wallet](https://wallet.trezor.io/) | Hardware Wallet | Ready, in beta | [proof](https://twitter.com/slushcz/status/882241787062087680), [implemented](https://beta-wallet.trezor.io)
+ [Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | Support | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
+ [Walltime](https://walltime.info/) | Exchange | Support |[proof](https://pastebin.com/raw/FeNHqySX)
+ [Yogh](http://yogh.io) | Explorer| Support |[proof](http://srv1.yogh.io/#json:getnetworkinfo)
+ 
+ *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
 ### Why BIP148 and not a direct flag day UASF for Segwit?
 
@@ -38,12 +97,19 @@ BIP148 was created to avoid having to force most users to upgrade their software
 
 ### What do users need to do to enforce BIP148?
 
-Users should use clients that enforce BIP148. Users that run full nodes would upgrade to one that enforces BIP148, or run their node behind an upgraded border node. Users of light clients (like mobile wallets) should check with each vendor to see their support for BIP148. We plan on documenting any public responses from wallets regarding BIP148 support.
-Satoshi Portal Electrum Server for UASF: 158.69.102.114 port 50002
+It is recommended that users do not update unless an economic majority commits to updating and users are aware of the risks and mitigations of a failed UASF deployment.
+
+Users aware of the risks and who want to commit should use clients that enforce BIP148. Users that run full nodes would upgrade to one that enforces BIP148, or run their node behind an upgraded border node. Users of light clients (like mobile wallets) should check with each vendor to see their support for BIP148. We plan on documenting any public responses from wallets regarding BIP148 support.
+
+Satoshi Portal Electrum Server for UASF: 158.69.102.114 port 50002   
+Freedom Node Electrum Server for UASF: bitcoin.freedomnode.com port 50001
 
 ### What do miners need to do to enforce BIP148?
 
-Miners should update their mining software to produce blocks with version bit 1 enabled prior to August 1st, 2017. Miners do not need to create SegWit blocks or make any other changes. After activation of SegWit, at a minimum, miners should also make sure they have a border node that filters out invalid blocks.
+Prior to August 1st, 2017, miners should either:
+
+1. Update their node software to a BIP148-enforcing version; or
+1. Run a BIP148 border node to filter out invalid blocks, and update their existing mining software to produce blocks with version 1 bit enabled, to vote for Segwit activation
 
 ### What are the various scenarios that could happen from BIP148?
 
@@ -62,22 +128,64 @@ Because BIP9 is time based, BIP148 needs to account for the possibility for some
 
 ### How can we show support for BIP148?
 
-The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users are also altering their node's user agent string to include BIP148.
+The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users have already installed (or upgraded to) Bitcoin Core UASF BIP148 and this is best option for those who use own nodes to send and receive bitcoin. 
+
+### Does it still make sense to signal support via uacomment?
+
+**Setting UACOMMENT is not enough to follow the BIP148 chain and it's absolutely necessary to switch to a BIP148 enforcing node if you want to stupport BIP148! Otherwise you could find yourself following the wrong chain - which is at risk of getting orphaned and also won’t support the activation of SegWit! See below for BIP148 enforcing binaries or how to compile it yourself.**
+
+### How can I compile BIP148 myself or download signed binaries?
+
+Signed binaries can be downloaded [here](https://github.com/UASF/bitcoin/releases). To build from source, follow the instructions below.
+
+First, install all necessary dependencies which are mentioned in the official Bitcoin build instructions:
+
+OS | Link
+------ | ------
+OpenBSD | https://github.com/bitcoin/bitcoin/blob/master/doc/build-openbsx.md
+OSX | https://github.com/bitcoin/bitcoin/blob/master/doc/build-osx.md
+Unix | https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md
+Windows | https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md
+
+You can also use the gitian build system, which is a bit more complex, but generates deterministic builds which can then be verified by the signatures of some core developers:
 
 
-To signal #BIP148 on Linux on your node before binaries are released:
+Source | Link
+------ | ------
+Gitian | https://github.com/bitcoin/bitcoin/blob/master/doc/gitian-building.md
+Signatures | https://github.com/UASF/gitian.sigs
 
-`echo "uacomment=UASF-SegWit-BIP148" >> ~/.bitcoin/bitcoin.conf && bitcoin-cli stop && sleep 5 && bitcoind`
+The next step is to clone the UASF repository:
 
-To signal #BIP148 on Windows, you can edit the shortcut for Bitcoin as follows:
+```
+git clone https://github.com/UASF/bitcoin.git bitcoin_bip148
+cd bitcoin_bip148
+git checkout 0.14-BIP148
+```
 
-![](img/windows148.png)
+and then continue with the default compiling steps which are mentioned in the official build instructions:
 
-_N.B. This will not enforce UASF on your node; it will only signal that you support it at this stage._
+```
+./autogen.sh
+./configure
+make
+make install # optional
+```
+
+Finished - you can run now your UASF BIP148 node.
+
+### Are there any groups which I can join?
+
+Yes. There are two slack channels on [slack.bitcoincore.org](http://slack.bitcoincore.org/):
+
+* #UASF for general talk
+* #UASF-SUPPORT for people who want to setup their BIP148 node
+
+Feel free to join, we are always happy about people which are interested and would like to discuss with us!
 
 ### Can BIP148 be cancelled?
 
-Yes. In the event that the economic majority does not support BIP148, users should remove software that enforces BIP148. A flag day activation for SegWit would be the next logical steps and require coordination of the community, most likely towards the end of 2018.
+No. BIP148 will occur as long as any users support it. Many users have committed to running BIP148 regardless of consequences, therefore it cannot be cancelled.
 
 ### Does node count determine activation?
 
@@ -116,7 +224,41 @@ This will depend on what type of wallet you use. In the case of a wallet using a
 
 ### Where do I download software that enforces BIP148?
 
-Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready.  Until there is sufficient consensus, it is not advised to use any binaries that implement BIP148.  However, the BIP148 reference can be applied for testing and review purposes.  If you want to signal support, change your user agent comment to be "UASF-SegWit-BIP148", along with communicating with other Bitcoin users that you support BIP148.
+Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready. Please check regulary to be up to date with the latest version.
+
+You can find software here - be sure to [verify the signtures](https://www.reddit.com/r/Bitcoin/comments/6bkk3c/by_request_how_to_signal_uasf_a_guide_for_dummies/):
+
+Operating system | Signatures
+--------- | --------- 
+win64-setup-unsigned.exe | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+win64.zip | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+win32-setup-unsigned.exe | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+win32.zip | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+Ubuntu | PPA provided by Luke-Jr
+osx64.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-osx-unsigned)
+osx-unsigned.dmg | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-osx-unsigned)
+x86_64-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+i686-pc-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+aarch64-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+arm-linux-gnueabihf.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+[Source Code](binaries/bitcoin-0.14.1-bip148_segwit0.3.tar.gz) | 
+
+### Running a Full Bitcoin Node with BIP148 on a Raspberry PI ###
+
+A [Raspberry PI](https://en.wikipedia.org/wiki/Raspberry_Pi) is a cheap way to run your own full node. Here are  
+[instructions how to install a Full Bitcoin Node with BIP148 on a Raspberry PI](https://www.renewable-energy-now.org/2017/07/raspberry-pi-bitcoin-full-node-english/)
+
+### What is BIP8?
+
+BIP8 is a modification to BIP9.  BIP9 was the deployment mechanism for soft forks in the past that relied on miners signalling 95% readiness for activation.  It was successfully used to activate BIP65 (OP_CHECKLOCKTIMEVERIFY) and BIP68/BIP112/BIP113 (CHECKSEQUENCEVERIFY/Median Time).  BIP9 allows for upgrades to the system whenever a supermajority of miners are ready to enforce the changes, allowing for faster upgrades than a UASF may allow.  Every 2016 blocks, if 95% of those blocks signalled readiness for the proposed change, the soft fork enforcement would become mandatory in 2016 blocks.  Each change is given a fixed timeframe to achieve this activation, such that any change that is not activated may have its bit reused.  Proposals that do not achieve activation expire at the end of their time period, but may be renewed if there is sufficient interest.
+
+BIP8 modifies BIP9 to automatically convert into a UASF at the end of its activation time.  This avoids the problem of a miner veto while still allowing miners to begin enforcing the rules sooner than a pure UASF would allow.  Once the final period completes after the timeout period, the rules become mandatory, regardless of signalling.
+
+### Can BIP8 be applied to SegWit?
+
+There was a proposal made by Shaolinfry to use BIP8 to deploy SegWit.  The proposal would set a new version bit for deployment after the current proposal would expire, and would lock-in in April 2018.  Miners would still be able to activate SegWit prior to the this date, but failure to activate would result in a mandatory lock-in.
+
+Unlike BIP148, this proposal would not require miners to signal version bits for SegWit or create SegWit blocks. The only requirement for miners is to not build on top of blocks that are invalid under the SegWit rules.
 
 ---
 
